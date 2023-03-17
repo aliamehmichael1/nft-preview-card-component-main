@@ -1,0 +1,124 @@
+ @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@600&display=swap');
+body{
+background-color: hsl(217, 54%, 11%);
+justify-content: center;
+display: flex;
+height: 100vh;
+width: 100%;
+align-items: center;
+font-family: 'Outfit', sans-serif;
+}
+div{
+padding-top: 20px;
+padding-bottom: 50px;
+padding-left: 20px;
+padding-right: 20px;
+background-color: hsl(216, 50%, 16%);
+border-radius: 10px;
+min-width: fit-content;
+min-height: fit-content;
+}
+.img1{ 
+ border-radius:5px; 
+ height: 35ch;
+ cursor: pointer;
+}
+.imgg{
+ position: relative;
+}
+.imgg div{
+ margin-top:20px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ position: absolute;
+ background-color:hsl(178, 100%, 50%) ;
+height: 63%;
+width: 77%;
+top: 0;
+opacity: 0;
+}
+.imgg div:hover{
+ margin-top: 20px;
+ align-items: center;
+ justify-content: center;
+ display: flex;
+ position: absolute;
+ background-color:hsl(178, 100%, 50%) ;
+ height: 68%;
+ width:81%;
+ opacity: 0.8;
+}
+.cont{
+ border-radius:6px;
+ justify-content: center;
+ display: flex;
+ height: 100px;
+ width: 100px;
+ align-items: center;
+ cursor: pointer;
+ -webkit-border-radius:6px;
+ -moz-border-radius:6px;
+ -ms-border-radius:6px;
+ -o-border-radius:6px;
+ background-color:hsl(178, 100%, 50%);
+}
+h1{
+ color: white;
+}
+h1:hover{
+cursor: pointer;
+color:hsl(178, 100%, 50%);
+}
+p{
+color:hsl(215, 51%, 70%);
+font-size: 18px;
+}
+.pa{
+color:hsl(178, 100%, 50%);
+font-size: 18px;
+display: inline-block;
+
+}
+.pb{
+font-size: 18px;
+display: inline;
+float:right
+}
+.imgb{
+border-radius: 10%;
+height:50px;
+padding-top:0px ;
+display: inline;
+width: 50px;
+}
+.pc{
+display: inline;
+font-size: 18px;
+position:absolute;
+
+}
+.pc> span{
+ color: white;
+}
+.pc > span:hover{
+ color:hsl(178, 100%, 50%);
+ cursor: pointer; 
+}
+hr{
+margin-top: 0px;
+padding: 0.1px;
+background-color:hsl(215, 51%, 70%);
+border: hsl(215, 51%, 70%);
+margin-bottom: 30px;
+}
+.imga{
+ height: 20px;
+ width: 20px;
+ display: inline;
+}
+.imgc{
+ height: 20px;
+ width: 10px;
+ display: inline;
+}
